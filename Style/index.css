@@ -26,10 +26,20 @@ li{
 .left ul{
     margin: 180px 150px;
 }
-.left ul li{
+.left ul li {
+    
     margin-bottom: 50px;
     font: inherit;
     color: white;
+}
+.left ul li span{
+    font-size: 16px;
+    font-weight: bold;
+}
+.left ul li img{
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
 }
 /* icons */
 .icon{
