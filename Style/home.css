@@ -118,3 +118,68 @@ ul li h5:hover{
 }
 
 /*----------------------- Center -------------------------*/
+.topBar{
+    background-color: white;
+    z-index: 1;
+    font-weight: 900;
+    font-size: 18px;
+    position: fixed;
+    border-style: solid;
+    border-width: 0.5px;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 50%;
+    padding-left: 15px;
+}
+.center{
+    position: relative;
+    margin-left: 22%;
+}
+.center form{
+    padding-top: 60px;
+    border-style: none;
+    width: 680px;
+    border-bottom: solid;
+    border-width: 1px;
+}
+.center form textarea {
+    resize: none;
+    width: 100%;
+    border-style: none;
+}
+textarea:focus{
+    border-style: none;
+    outline: none;
+}
+.center button{
+    border-style: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    margin-left: 570px;
+    background-color: rgba(29,161,242,1.00);
+}
+.newsfeed{
+    width: 600px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+hr{
+    width: 650px;
+    margin-right: 80px;
+    margin-left: 0;
+}
+#tweetdiv p{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+#nameofUser{
+    margin-left: 5px;
+}
+#ell{
+    position: absolute;
+    right: 0;
+}
