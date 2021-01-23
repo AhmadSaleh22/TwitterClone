@@ -36,6 +36,10 @@
     width: 500px;
     border-style: none;
 }
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
 .container1 .formDiv form label {
     display: inline-block;
     margin-bottom: 0rem;
