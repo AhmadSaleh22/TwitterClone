@@ -183,3 +183,27 @@ hr{
     position: absolute;
     right: 0;
 }
+.tweetBottom{
+    margin-left: 10px;
+    width: 600px;
+}
+.tweetBottom span i{
+    color:rgb(91, 112, 131);
+    padding: 8px;
+    margin-right: 80px;
+    align-self: center;
+}
+.tweetBottom span i:hover{
+    cursor: pointer;
+    background-color: rgba(29, 160, 242, 0.26);
+    border-radius: 50%;
+}
+
+#like:hover{
+    color: rgb(224, 36, 94);
+    background-color: rgba(224, 36, 96, 0.26);
+}
+#retweet:hover{
+    color: rgb(23, 191, 99);
+    background-color: rgba(23, 191, 99, 0.26);
+}
